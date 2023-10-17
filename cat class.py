@@ -10,8 +10,8 @@ class Cat:
     def walk(self, amount):
         if self.weight <= 1:
             print("Can't walk anymore")
-            return
-        self.weight -= amount
+        else:
+            self.weight -= amount
 
 
 cat1 = Cat("Flathead", 3, 4)
